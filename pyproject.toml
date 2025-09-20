@@ -1,0 +1,9 @@
+[project]
+name = "crewai-email"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[tool]>=0.193.0",
+]

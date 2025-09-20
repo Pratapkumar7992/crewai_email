@@ -1,0 +1,23 @@
+draft_task:
+  description: >
+    Write a rough email of the {subject} and {context} that provide.
+  expected_output: >
+    A short rough email draft (not polished).
+
+grammar_task:
+  description: >
+    Check the grammar, spelling, and punctuation of the draft without changing its meaning.
+  expected_output: >
+    A grammatically correct version of the email.
+
+polish_task:
+  description: >
+    Rewrite the email to make it polite, humble, and professional while keeping the intent intact.
+  expected_output: >
+    A polite, customer-friendly version of the email.
+
+review_task:
+  description: >
+    Re-check the polished email for clarity and completeness. Suggest any missing information or improvements.
+  expected_output: >
+    A final reviewed email with optional suggestions for improvement.
